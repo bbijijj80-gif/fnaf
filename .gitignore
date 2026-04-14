@@ -1,38 +1,89 @@
 ```
 # Build artifacts
-*.exe
-*.dll
-*.pdb
-*.obj
-*.lib
-*.so
-*.dylib
-*.a
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
 
-# Dependencies
-packages/
-node_modules/
-venv/
-.venv/
-__pycache__/
-*.egg-info/
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
 
-# Logs
-*.log
+# IDE settings
+.vs/
+.idea/
 
 # OS generated files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
 
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Log files
+*.log
+
+# Temporary files
 *.tmp
+*.temp
+*.bak
 
-# Configuration
+# Environment variables
 .env
 .env.local
 *.env.*
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# C# specific
+bin/
+obj/
+out/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.nupkg
+coverage/
+*.dSYM/
 ```
