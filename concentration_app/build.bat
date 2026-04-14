@@ -1,4 +1,5 @@
 @echo off
+setlocal EnableDelayedExpansion
 chcp 65001 >nul
 echo ============================================
 echo   Сборка приложения Concentration Hub
@@ -31,7 +32,7 @@ pyinstaller --onefile --windowed --name "ConcentrationHub" ^
 
 REM Модули
 for %%f in (modules\module*.py) do (
-    set fname=%%~nf
+    set "fname=%%~nf"
     echo   - !fname!.py -> !fname!.exe
     pyinstaller --onefile --windowed --name "!fname!" ^
         --hidden-import=customtkinter ^
