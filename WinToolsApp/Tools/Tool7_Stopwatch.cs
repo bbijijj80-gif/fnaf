@@ -16,7 +16,7 @@ namespace Tool7_Stopwatch
             var resetBtn = new Button { Text = "Сброс", Location = new System.Drawing.Point(190, 80), Width = 80, Height = 40 };
             
             var stopwatch = new System.Diagnostics.Stopwatch();
-            var timer = new Timer { Interval = 100 };
+            var timer = new System.Windows.Forms.Timer { Interval = 100 };
             
             timer.Tick += (s, e) =>
             {
