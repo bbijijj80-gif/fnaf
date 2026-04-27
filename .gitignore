@@ -1,0 +1,60 @@
+```
+# Build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.userprefs
+*.userosscache
+*.suo
+*.user
+*.aps
+*.ncb
+*.obj
+*.ilk
+*.res
+*.pch
+*.manifest
+*.dep
+*.cache
+*.dotsettings.user
+*.VC.db
+*.VC.VC.opendb
+
+# Dependencies
+packages/
+node_modules/
+*.nupkg
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# User-specific files
+.vs/
+.idea/
+*.userprefs
+*.sln.docstates
+
+# Environment specific
+.env
+.env.local
+*.env.*
+
+# Testing
+TestResults/
+
+# Output of web projects
+publish/
+_UpgradeReport_Files/
+```
