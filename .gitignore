@@ -1,0 +1,47 @@
+```
+# Build artifacts
+*.obj
+*.exe
+*.dll
+*.pdb
+*.user
+*.userosscache
+*.suo
+*.cache
+*.ilk
+*.exp
+*.lib
+*.iobj
+*.ipdb
+*.builds
+*.baml
+
+# Visual Studio files
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio Code files
+.vscode/
+
+# Output directories
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+Debug*/
+Release*/
+
+# Logs
+*.log
+
+# User-specific files
+*.userprefs
+*.sln.docstates
+
+# Temporary files
+*.tmp
+*~
+```
